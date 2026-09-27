@@ -11,12 +11,12 @@ class Solution {
                     flowerbed[i] = 1;
                     count++;
 
-                    if (count >= n) {
+                    if (count == n) {
                         return true;
                     }
                 }
             }
         }
-        return count >= n;
+        return false;
     }
 }
